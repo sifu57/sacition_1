@@ -29,7 +29,90 @@
 #banar{
     display: flex;
     justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+    /* border: 2px solid red; */
+    background: url("../imgs/background.png"),
+    linear-gradient(45deg,rgb(69, 65, 65),#000);
+    color: white;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
 }
 #banar .imge img{
     width:300px ;
 }
+#banar .text h1{
+    font-size: 55px;
+    font-weight: bold;
+}
+#banar .text p{
+    font-family: 18px;
+    margin-top: 15px;
+}
+#banar .text button{
+    padding: 15px 20px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#about h1{
+    text-align: center;
+    text-transform:capitalize;
+}
+#about .about_continer{
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    align-items: center;
+    height: 50vh;
+}
+
+#about .about_continer .imgs img{
+    width: 300px;
+}
+#sarvise .card_disine {
+    display: flex;
+    justify-content: space-around;
+}
+#sarvise .card_disine .box1{
+    width: 200px;
+    height: 250px;
+    box-shadow: 4px 4px 15px gray;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+#sarvise .card_disine .box2{
+    width: 200px;
+    height: 250px;
+    box-shadow: 4px 4px 15px gray;
+    text-align: center;
+background-color: black;
+color: white;
+}
+#sarvise .card_disine .box3{
+    width: 200px;
+    height: 250px;
+    box-shadow: 4px 4px 15px gray;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+#sarvise {
+    padding-bottom:200px;
+}
+#sarvise h1{
+    text-align: center;
+    padding-bottom: 25px;
+    text-transform: uppercase;
+}
+.card-img{
+    width: 100px;
+}
+.box_btn{ color: gray;
+padding: 10px;
+color: aliceblue;}
